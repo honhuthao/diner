@@ -547,11 +547,6 @@ inf h3{
     opacity: 0.8;
 }
 /*--------------Number-------------*/
-.number {
-    position: relative;
-    z-index: 10;
-    margin-top: -50px;
-}
 .number_cards{
     text-align: center;
     margin-top: -40px;
@@ -577,7 +572,7 @@ inf h3{
   padding: 40px 20px;
   border-radius: 8px;
   text-align: center;
-  transition: 0.5s;
+  
 }
 
 .counter_number:hover {
@@ -597,31 +592,6 @@ inf h3{
   color: rgba(22, 28, 45, 0.7);
   font-weight: 600;
   font-size: 20px;
-}
-
-@media (max-width:992px) {
-  section.w3_stats {
-      margin-top: 0px;
-  }
-}
-
-@media (max-width: 640px) {
-  .timer {
-    font-size: 2em;
-  }
-
-  .counter {
-    text-align: center;
-    padding: 30px 10px;
-  }
-}
-
-@media (max-width: 480px) {
-  .w3-stats p {
-      font-size: 0.9em;
-     z-index: 2; 
-  }
-    
 }
 
 /*---------------Video-----------*/
