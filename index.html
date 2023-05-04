@@ -733,17 +733,17 @@
           </div>
         </div>
 
+        <!-- move top -->
+        <button
+          onclick="topFunction()"
+          id="movetop"
+          title="Go to top"
+          style="display: none"
+        >
+          <span class="fa fa-angle-up"></span>
+        </button>
+        <!-- /move top -->
       </section>
-      <!-- move top -->
-      <button
-        onclick="topFunction()"
-        id="movetop"
-        title="Go to top"
-        style="display: block"
-      >
-        <span class="fa fa-angle-up"></span>
-      </button>
-      <!-- /move top -->
     </footer>
 
     <!-- jQuery -->
@@ -839,7 +839,6 @@
       window.onscroll = function () {
         scrollFunction();
       };
-
       function scrollFunction() {
         if (
           document.body.scrollTop > 20 ||
