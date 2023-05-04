@@ -205,7 +205,11 @@ button#trigger-overlay {
 .content span{
     color: #000;
 }
-
+@media (max-width: 475px){
+    .search-bar{
+        display: none;
+    }
+}
 /* ---------Banner--------- */
 .banner{
     background-image: linear-gradient(to right, #ff6600, hsl(30deg 100% 1% / 20%)),
